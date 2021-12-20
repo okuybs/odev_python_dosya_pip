@@ -54,8 +54,6 @@ def write_file(file_name, content):
     file_name ile adi verilen 
     content ile icerigi verilen 
     dosyayi yazan kodu yaziniz"""
-    with open(file_name, "w") as outfile:
-        outfile.write(content)
 
 
 def fill_person(lines):
